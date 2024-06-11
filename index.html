@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ram. | Portfolio</title>
+    <link rel="icon" type="image" href="./assets/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="particles-js"></div>
+    <div id="box">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay: 1700ms;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay: 1800ms;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay: 1900ms;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay: 1900ms;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay: 1800ms;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay: 1700ms;"></div>
+    </div>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay: 1000ms;">about</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay: 1000ms;">work</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay: 1000ms;">contact</a>
+    <a id="projects" onclick="showprojects()" class="animated fadeIn" style="animation-delay: 1000ms;">experience</a>
+    <div id="middle" class="animated slideInDown" style="animation-delay: 2000ms;">
+        <h1> thisisram.</h1>
+        <h2>Developer / Entrepreneur / Writer</h2>
+        <div id="menu">
+            <a onclick="showabout()">about</a>
+            <a onclick="showwork()">work</a>
+            <a onclick="showcontact()">contact</a>
+            <a onclick="showprojects()">experience</a>
+        </div>
+        <table>
+            <tr>
+                <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"
+                        href="www.linkedin.com/in/ramkiranmohan"><i class="fab fa-linkedin"></i></a></td>
+                <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social"
+                        href="https://x.com/RamKiranMohan1"><i class="fab fa-twitter"></i></a></td>
+                <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"
+                        href="https://www.instagram.com/being.rk_/"><i class="fab fa-instagram"></i></a></td>
+                <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social"
+                        href="https://github.com/"><i class="fab fa-github"></i></a></td>
+            </tr>
+        </table>
+    </div>
+    <div id="projects_container" class="container">
+        <div onclick="closeprojects()"><i class="fas fa-angle-right"></i></div>
+        <h1>Experience.</h1>
+        <section>
+            <h2>Proffesional Experiences:</h2>
+            <p>
+               
+            </p>
+            <ul>
+                <div class="project_card">
+                    <div class="project_info">
+                        <h3>Founderfie[2022-]</h3>
+                        <p>Founderfie is an indian tech startup that creates innovative solutions to redefine the digital era.</p>
+                        
+                </div>
+                <div class="project_card">
+                    <div class="project_info">
+                        <h3>Kemics[2023-]</h3>
+                        <p>Kemics is an indian minecraft server which aims to create a popular minecraft community in Kerala.</p>
+                        
+                    </div>
+                </div>
+                <div class="project_card">
+                    <div class="project_info">
+                        <h3>Verse Events[2022-23]</h3>
+                        <p>Verse Events is a Indian event management company built to manage gaming events.</p>
+                       
+                    </div>
+                    
+                      <div class="project_card">
+                                <div class="project_info">
+                                    <h3>Crystal Cloud [2020-22]</h3>
+                                    <p>Crystal cloud is a  international web hosting service which aimed to give a reliable enviornment and support to the people.</p>
+                        </div>
+
+                        <div class="project_card">
+                            <div class="project_info">
+                                <h3>Mallu Esports [2020-21]</h3>
+                                <p>Mallu Esports is a gaming community based in India,kerala.</p>
+                    </div>
+                </div>
+            </ul>
+        </section>
+    </div>
+    <div id="work_container" class="container">
+        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+        <h1>work.</h1>
+        <section>
+            <h2></h2>
+            <p>
+                Ram is a seasoned web developer with over five years
+                of professional experience in the tech industry. 
+                His expertise spans full stack development, server management, 
+                and game server development. Additionally, Ram is an accomplished writer,
+                combining technical acumen with creative storytelling to produce engaging
+                content across various mediums.
+
+
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;Web Designing</div>
+                <div><i class="fas fa-circle"></i>&nbsp; Writing</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Server Management</div>
+            </div>
+            <button class="btn_one"><a href="./assets/" target="_blank"
+                    style="color: inherit; text-decoration: none">View
+                    Resume</a></button>
+        </section>
+    </div>
+    <div id="about_container" class="container">
+        <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+        <h1>about.</h1>
+        <section>
+            <h2>about ram.</h2>
+            <p>
+                Ram Kiran Mohan is a masterful expert in the field of tech, 
+                currently serving as the Chief Innovations Officer at Founderfie.
+                With a strong background in web development, Ram Has Proven his skills in hosting, ecommerce and Ai.
+            </p>
+            <p>
+                Ram's Journey began with a passion in web development and now outreached his expertise as a freelancer in web and demonstrated his creativity in the domain. In addition,
+                 Ram is well-versed in web hosting and have proven his skills at various companies across the globe.
+            </p>
+            <p>
+                Furthermore, Ram has a deep understanding of ecommerce market and platforms enabling him to implement successful digital marketplace at various segments. Beyond this , Ram is also a versed writer. 
+                As one of the Founder of Founderfie, Ram Continues his journey leading the team pushing the boundaries.
+            </p>
+
+        </section>
+        </section>
+    </div>
+    <div id="contact_container" class="container">
+        <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+        <h1>contact.</h1>
+        <section>
+            <h2>contact me at:</h2><h3>ramkiranmohan@founderfie.in</h3><a href="ramkiranmohan@founderfie.in"></a>
+
+            </p>
+        </section>
+    </div>
+    <div id="footer">
+        
+    </div>
+    <script src="index.js" type="text/javascript"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
